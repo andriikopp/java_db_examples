@@ -18,7 +18,7 @@ CREATE TABLE tour (
 	tour_hotel VARCHAR(255) NOT NULL,
 	tour_price DECIMAL(10,2) NOT NULL,
 	tour_img_url TEXT NOT NULL,
-	FOREIGN KEY (tour_id) REFERENCES tour_type(tour_type_id)
+	FOREIGN KEY (tour_type_id) REFERENCES tour_type(tour_type_id)
 );
 
 
