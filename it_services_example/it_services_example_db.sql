@@ -4,7 +4,7 @@ CREATE DATABASE it_services_example;
 USE it_services_example;
 
 CREATE TABLE service_type (
-	service_type_id INT PRIMARY KEY,
+	service_type_id INT AUTO_INCREMENT PRIMARY KEY,
 	service_type_name VARCHAR(100) NOT NULL
 );
 
